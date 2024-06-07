@@ -1,0 +1,97 @@
+body{
+    background-image: url(./img/fondonegro1.jpg);
+}
+.menutit{
+    color: #f9b321;
+}
+.Titulo{
+    color: rgb(234,156,15);
+}
+.Subtitulo1{
+    font-size: 25px;
+    color: white;
+}
+.Subtitulo2{
+    font-size: 25px;
+    color: black;
+}
+.texto1{
+    color: black;
+    font-size: 20px;
+}
+.texto2{
+    color: black;
+    font-size: 15px;
+}
+.texto3{
+    color: black;
+    font-size: 15px;
+    font-family: arial, Arial, Helvetica, sans-serif;
+    text-align: justify;
+    
+}
+
+
+.imagen1{
+    width: 800px;
+    height: 600px;
+}
+
+.imagen2{
+    width: 50%;
+    height: 50%;
+    
+}
+.card1{
+    align-items: center;
+    background-color: white;
+    border: solid #2f00af;
+}
+
+
+
+.form-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+video{
+    width: 300px;
+    height: 500px;
+}
